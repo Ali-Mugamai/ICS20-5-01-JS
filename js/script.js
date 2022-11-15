@@ -9,9 +9,9 @@
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register(
-    "/ICS2O-Unit5-01-HTML-Slider-Example/sw.js",
+    "/ICS20-5-01-JS/sw.js",
     {
-      scope: "/ICS2O-Unit5-01-HTML-Slider-Example/",
+      scope: "/ICS20-5-01-JS/",
     }
   )
 }
@@ -31,5 +31,5 @@ const randomNumber = Math.floor(Math.random() * 6) + 1
  */
 function myButtonClicked() {
   document.getElementById("answer").innerHTML =
-    "<p>Value is: " + slider.value + randomNumber + "</p>"
+    "<p>Value is: " + slider.value + "</p>"
 }
