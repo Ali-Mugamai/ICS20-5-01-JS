@@ -30,6 +30,6 @@ const randomNumber = Math.floor(Math.random() * 6) + 1
  * This function displays the slider value.
  */
 function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML =
+  document.getElementById("answer").innerHTML =
     "<p>Value is: " + slider.value + randomNumber + "</p>"
 }
