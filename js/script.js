@@ -22,11 +22,14 @@ if (navigator.serviceWorker) {
 function updateSliderValue(valueFromSlider) {
   document.getElementById("slider-value").innerHTML = valueFromSlider
 }
-
+/**
+ * setting up the values
+ */
+ const randomNumber = Math.floor(Math.random() * 6) + 1 
 /**
  * This function displays the slider value.
  */
 function myButtonClicked() {
   document.getElementById("hello-world").innerHTML =
-    "<p>Value is: " + slider.value + "</p>"
+    "<p>Value is: " + slider.value + randomNumber + "</p>"
 }
