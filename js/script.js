@@ -22,7 +22,7 @@ function updateSliderValue(valueFromSlider) {
 /**
  * setting up the values
  */
-const randomNumber = Math.floor(Math.random() * 6) + 1
+randomNumber = Math.floor(Math.random() * 6) + 1
 /**
  * This function displays the slider value.
  */
