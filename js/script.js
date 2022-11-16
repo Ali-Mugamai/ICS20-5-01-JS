@@ -20,13 +20,12 @@ function updateSliderValue(valueFromSlider) {
   document.getElementById("slider-value").innerHTML = valueFromSlider
 }
 /**
- * setting up the values
- */
-randomNumber = Math.floor(Math.random() * 6) + 1
-/**
- * This function displays the slider value.
+ * gets a random number and displays if you are right or wrong
  */
 function myButtonClicked() {
+
+  const randomNumber = Math.floor(Math.random() * 6) + 1
+
   document.getElementById("answer").innerHTML =
     "<p>Value is: " + slider.value + randomNumber + "</p>"
 }
