@@ -25,6 +25,9 @@ function updateSliderValue(valueFromSlider) {
 function myButtonClicked() {
   const randomNumber = Math.floor(Math.random() * 6) + 1
 
+  if (randomNumber == slider.value) { answer = "correct"; } 
+  else { answer = "wrong";}
+  
   document.getElementById("answer").innerHTML =
-    "<p>Value is: " + slider.value + randomNumber + "</p>"
+  "<p>Value is " + answer + "</p>"
 }
