@@ -28,5 +28,5 @@ randomNumber = Math.floor(Math.random() * 6) + 1
  */
 function myButtonClicked() {
   document.getElementById("answer").innerHTML =
-    "<p>Value is: " + slider.value + "</p>"
+    "<p>Value is: " + slider.value + randomNumber + "</p>"
 }
