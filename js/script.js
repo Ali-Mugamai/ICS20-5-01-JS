@@ -23,7 +23,6 @@ function updateSliderValue(valueFromSlider) {
  * gets a random number and displays if you are right or wrong
  */
 function myButtonClicked() {
-
   const randomNumber = Math.floor(Math.random() * 6) + 1
 
   document.getElementById("answer").innerHTML =
